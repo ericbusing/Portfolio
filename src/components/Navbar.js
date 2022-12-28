@@ -7,12 +7,12 @@ import {info} from "../info/Info";
 
 const links = [
     {
-        name: 'Home',
+        name: 'accueil',
         to: '/',
         active: 'home'
     },
     {
-        name: 'About Me',
+        name: 'à propos',
         to: '/about',
         active: 'about'
     },
