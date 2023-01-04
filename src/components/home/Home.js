@@ -22,8 +22,7 @@ export default function Home() {
             <h2>Je suis {info.position}.</h2>
             <Box component={'ul'} p={'0.8rem'}>
                {info.miniBio.map((bio, index) => (
-                  <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>,
-                  <Emailjs/>
+                  <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
                ))}
             </Box>
             <Box display={'flex'} gap={'1.5rem'} justifyContent={'flex-start'} fontSize={{xs: '2rem', md: '2.5rem'}}>
